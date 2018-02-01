@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/register_layout">
+
+    <EditText
+        android:id="@+id/et_StudentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name: First Last"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_StudentNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Student Number: 9 digits"
+        android:inputType="textPersonName|number" />
+
+    <Button
+        android:id="@+id/b_trainRecognizer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Your Face" />
+
+    <Button
+        android:id="@+id/b_register2Server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+
+    <Button
+        android:id="@+id/b_back2Main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+</LinearLayout>
